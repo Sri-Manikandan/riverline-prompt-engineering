@@ -4,57 +4,57 @@
 - **Agent:** Hello, this is Alex from DemoCompany, calling about your DemoLender loan. There are some charges on your account I can help remove. Can we talk for a moment? Hello?
 - **Agent:** Are you there?
 - **Customer:** Hello?
-- **Agent:** Am I speaking with {{customer_name}}?
+- **Agent:** Hello. Can you hear me clearly?
 - **Customer:** Hello? Hello, sir?
-- **Agent:** I am Alex from DemoCompany. We work with DemoLender for education loans. Am I speaking with {{customer_name}}?
+- **Agent:** Yes, I can hear you. Can you hear me clearly?
 - **Customer:** Sir, can I connect to the?
 - **Customer:** Anyone is available?
-- **Agent:** I am calling for {{customer_name}} regarding an important account matter. Am I speaking with them?
+- **Agent:** I am Alex from DemoCompany. We work with DemoLender for education loans. Am I speaking with the borrower?
 - **Customer:** 21?
-- **Agent:** Sorry, could you say that again?
+- **Agent:** Sorry, could you say that again slowly?
 - **Customer:** Hello?
 - **Agent:** Hello?
-- **Agent:** {{customer_name}}, can you hear me?
+- **Agent:** Can you hear me clearly?
 - **Customer:** Hello? Forget. You repeat again?
-- **Agent:** I am Alex from DemoCompany. We work with DemoLender for education loans. It is regarding an important account matter linked to DemoLender. Am I speaking with {{customer_name}}?
+- **Agent:** I am calling about your DemoLender loan account. Am I speaking with the borrower?
 - **Customer:** Okay, sir. Sir, let's say I'm explained. Let's connect the call as well. Anyone available?
-- **Agent:** I understand. I am calling for {{customer_name}} regarding an important account matter. Am I speaking with them?
+- **Agent:** I am here to help with your account today. If this is the borrower, please confirm.
 - **Customer:** I'm understanding, sir.
 - **Customer:** You know something?
-- **Agent:** Sorry, I need to confirm first. Am I speaking with {{customer_name}}?
+- **Agent:** Yes. I am calling about your DemoLender loan account.
 - **Customer:** Okay, sir.
-- **Agent:** Am I speaking with {{customer_name}}?
+- **Agent:** Are you the borrower?
 - **Customer:** Sir, can you understand?
-- **Agent:** I understand. Please confirm, am I speaking with {{customer_name}}?
+- **Agent:** Yes. I can understand you. Please speak slowly.
 - **Customer:** Okay, sir.
 - **Customer:** Then
 - **Customer:** do you know Tamil?
 - **Customer:** Hello?
-- **Agent:** ஆம், நான் தமிழ் பேசலாம். முதலில் உறுதிப்படுத்துங்கள், நான் {{customer_name}} அவர்களோட பேசுகிறேனா?
+- **Agent:** ஆம். நான் தமிழில் பேசலாம். இப்போ தெளிவாக கேட்கிறதா?
 - **Customer:** Hello? உம் ஆனது கப்பல் வந்து என குவில வந்து ஒரு கொஞ்சநாள் போனது கப்பல்மே என குவிலுக்கு இது சாப்பாடு படம அடியறாங்க. ஆனால், அங்குள்ளோர் ஒங்கிலாராக கடித்திருந்தன. ஒரு டிமான்சு, புவிலென்று சாப்பாடு வாகன அல்லது கேட்பனுகிட்டிருந்தன.
-- **Agent:** மன்னிக்கவும், தெளிவாக கேட்கவில்லை. நான் {{customer_name}} அவர்களோட பேசுகிறேனா?
+- **Agent:** மன்னிக்கவும். எனக்கு தெளிவாக புரியவில்லை. கொஞ்சம் மெதுவாக சொல்லுங்கள்.
 - **Customer:** பல கொஜனால் செலுத்துப்பதென என குவிலர்தே இருக்கிறது. ரிச்ம்ந்து ஒருமட்டனது
 - **Customer:** .000 .000
-- **Agent:** மன்னிக்கவும். கொஞ்சம் தெளிவாக சொல்லுங்கள். நான் {{customer_name}} அவர்களோட பேசுகிறேனா?
+- **Agent:** மன்னிக்கவும். நீங்கள் என்ன சொல்லுகிறீர்கள் என்று தெளிவாக கேட்கவில்லை. உங்களுக்கு கட்டணத்தில் பிரச்சனை இருக்கிறதா?
 - **Customer:** நமது அப்படி தனியாக தான் செய்து செய்யப்படீங்களா?
-- **Agent:** நான் Alex, DemoCompany லிருந்து பேசுகிறேன். DemoLender education loan பற்றிய முக்கியமான account matter காக call பண்ணுகிறேன். நான் {{customer_name}} அவர்களோட பேசுகிறேனா?
+- **Agent:** மன்னிக்கவும். அது எனக்கு புரியவில்லை. தயவுசெய்து இன்னொரு முறை மெதுவாக சொல்லுங்கள்.
 - **Customer:** ஹலோ?
-- **Agent:** சொல்லுங்கள், நான் {{customer_name}} அவர்களோட பேசுகிறேனா?
+- **Agent:** ஹலோ. நான் கேட்கிறேன். சொல்லுங்கள்.
 - **Customer:** அப்போ இருக்க மோதே, எனகொது புவில சபோற்பா. அன்னமற்ற்றாங்க.
-- **Agent:** மன்னிக்கவும், தெளிவாக புரியவில்லை. நான் {{customer_name}} அவர்களோட பேசுகிறேனா?
+- **Agent:** மன்னிக்கவும். இன்னும் தெளிவாக இல்லை.
 - **Customer:** எந்த நெல்புமே பண்ணமற்றறாங்க.
-- **Agent:** மன்னிக்கவும், இன்னும் தெளிவாக கேட்கவில்லை. நான் {{customer_name}} அவர்களோட பேசுகிறேனா?
+- **Agent:** சரி. உங்களுக்கு ஏதாவது உதவி கிடைக்கவில்லை என்று சொல்கிறீர்களா?
 - **Customer:** அப்படீன்னா போது எனக்கு உங்க செயல்லந்து ரிஸப்ஷன.
 - **Customer:** ம்.
-- **Agent:** I understand. Connection clear இல்லை போல இருக்கிறது. நான் {{customer_name}} அவர்களோட பேசுகிறேனா?
+- **Agent:** புரிகிறது. லைன் தெளிவாக இல்லை போல இருக்கிறது.
 - **Customer:** நலோன் வாயில்களாக, எடுத்த ரண்முக.
-- **Agent:** இது DemoLender account matter பற்றிய call. ஆனால் முதலில் confirm செய்ய வேண்டும். நான் {{customer_name}} அவர்களோட பேசுகிறேனா?
+- **Agent:** சரி. நான் உங்கள் DemoLender கல்விக் கடன் பற்றிதான் பேசுகிறேன். முதலில், நீங்கள் தான் கடன் எடுத்தவர் தானே?
 - **Customer:** ரன்யிலே அமைச்சர அந்த லோன்யாயிருக்கவா வாங்கிருக்க,
-- **Agent:** மன்னிக்கவும், identity confirm ஆகாததால் account details share பண்ண முடியாது. நான் {{customer_name}} அவர்களோட பேசுகிறேனா?
+- **Agent:** மன்னிக்கவும். அது தெளிவாக இல்லை. நீங்கள் கடன் எடுத்தவர் என்று உறுதி செய்கிறீர்களா?
 - **Customer:** ந... ந.தரோன் எடுக்கா வாங்கிரியின் சொல்லுக.
-- **Agent:** நான் புரிந்துகொள்கிறேன். ஆனால் முதலில் உறுதி செய்ய வேண்டும். நான் {{customer_name}} அவர்களோட பேசுகிறேனா?
+- **Agent:** சரி. நீங்கள் இந்தக் கடன் உங்களுடையது அல்ல என்று சொல்கிறீர்களா?
 - **Customer:** பலர்
-- **Agent:** மன்னிக்கவும், தெளிவாக சொல்லுங்கள். நான் {{customer_name}} அவர்களோட பேசுகிறேனா?
+- **Agent:** தயவுசெய்து உறுதியாக சொல்லுங்கள்.
 - **Customer:** நோtாங்கிருகேன் சுடைங் இல்ல.
 - **Customer:** சுடைங்
-- **Agent:** Connection issue. I will try again later.
+- **Agent:** மன்னிக்கவும். லைன் மற்றும் புரிதல் இரண்டும் சரியாக இல்லை. நான் பின்னர் ஒரு callback ஏற்பாடு செய்யலாம். உங்களுக்கு எப்போது அழைக்கலாம்?

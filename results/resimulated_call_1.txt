@@ -2,189 +2,158 @@
 
 - **agent:** Hello, this is Alex from DemoCompany, calling about your DemoLender loan. We reviewed your account and have a good offer to help close it. Can we talk for a moment?
 - **customer:** Yes?
-- **agent:** Am I speaking with Rahul?
+- **agent:** May I confirm, am I speaking with the borrower?
 - **customer:** Hello? Please amount repeat.
-- **agent:** I am Alex from DemoCompany. We work with DemoLender for education loans. Am I speaking with Rahul?
+- **agent:** मैं हिंदी में बात करता हूँ। क्या आप मुझे अब साफ़ सुन पा रही हैं?
 - **customer:** हां बोलिए.
-- **agent:** क्या मैं राहुल से बात कर रहा हूं?
+- **agent:** क्या मैं उधार लेने वाले व्यक्ति से बात कर रहा हूँ?
 - **customer:** हां.
-- **agent:** आपका total outstanding 35588 rupees है. लेकिन हम सारे charges हटाकर आपका loan 28582 rupees में close कर सकते हैं.
-- **customer:** Okay, give me just a moment...
-- **agent:** जी, मैं लाइन पर हूं.
+- **agent:** आपके DemoLender loan account के बारे में बात करनी है। एक बात बताइए, क्या यह loan आपके नाम पर है?
+- **agent:** 
+- **agent:** 
 - **customer:** Yes. बोलिए.
-- **agent:** जी, बताइए payment में delay किस वजह से हुआ?
 - **customer:** Sir कौन सा payment?
-- **agent:** DemoLender education loan का payment. क्या आप बता सकती हैं payment में क्या दिक्कत चल रही है?
+- **agent:** मैं Alex बोल रहा हूँ, DemoCompany से। हम DemoLender education loan के बारे में बात कर रहे हैं।
 - **customer:** मैंने कोई loan नहीं लिया था.
-- **agent:** मैं समझता हूं. क्या आप कह रही हैं कि यह loan आपका नहीं है?
+- **agent:** ठीक है, मैं आपकी बात समझ गया। अगर आप कह रही हैं कि loan आपका नहीं है, तो पहले मैं यही note कर लेता हूँ। क्या यह loan कभी आपके नाम से लिया गया था, या यह पूरी तरह गलत account है?
 - **customer:** हां बोलिए.
-- **agent:** क्या यह loan आपने कभी लिया ही नहीं था?
+- **agent:** क्या loan आपके नाम पर था, या नहीं?
 - **customer:** Sir मेरे husband ने loan करवाया था.
-- **agent:** मैं समझता हूं. आपके husband ने loan handle किया था?
+- **agent:** समझ गया। तो loan आपके नाम पर था, लेकिन आपके husband ने process और payment संभाला था. सही है?
 - **customer:** ठीक है? लेकिन उन्होंने
-- **agent:** जी, बताइए.
+- **agent:** जी, बताइए।
 - **customer:** था कि मैंने पूरा payment कर दिया है. नाम मेरे था, लेकिन payment वह करते थे अपने account से करते थे ना ही मेरे account से नहीं होता था यह payment.
-- **agent:** मैं समझता हूं. आपने बताया कि payment आपके husband अपने account se करते थे और उन्होंने कहा था कि loan पूरा clear हो गया था.
+- **agent:** ठीक है। आपने बताया कि loan आपके नाम पर था, लेकिन payment आपके husband अपने account से करते थे, और उन्होंने आपको कहा था कि पूरा payment हो चुका है. सही?
 - **customer:** जी हां.
-- **agent:** ठीक है. Payment कब पूरा हुआ था, लगभग याद है? Aur kis mode se payment किया गया था?
+- **agent:** समझ गया।
 - **customer:** और उनकी अभी seventh March दो हज़ार
 - **customer:** 2025 को death हो गई है.
-- **agent:** मुझे यह सुनकर बहुत अफसोस है. मैं समझता हूं. क्या आपके पास death certificate ya payment proof है?
+- **agent:** यह सुनकर मुझे बहुत दुख हुआ। आपकी loss के लिए मुझे अफ़सोस है। मैं payment के लिए दबाव नहीं डालूँगा। पहले यह issue note करते हैं। क्या आपके पास death certificate है?
 - **customer:** है ना? तो अब मेरे पास documents हां.
-- **agent:** ठीक है. आप कौन-कौन से documents share कर सकती हैं?
+- **agent:** ठीक है। क्या आपके पास payment से जुड़ी कोई detail भी है, जैसे receipt, UTR, bank statement, या जिस account से payment हुआ था उसकी जानकारी?
 - **customer:** आज 1 year हो गया.
-- **agent:** मैं समझता हूं. यह कठिन स्थिति है.
+- **agent:** समझ गया। मैं note कर रहा हूँ कि आपके husband का निधन 07 March 2025 को हुआ था।
+- **agent:** 
 - **customer:** जी हां, है ना sir?
-- **agent:** जी. अगर आपके पास death certificate, receipt, screenshot, ya koi payment details हैं, तो उन्हें official support पर भेजा जा सकता है.
+- **agent:** धन्यवाद। क्या आप death certificate और payment proof review के लिए share कर सकती हैं?
 - **customer:** जी हां, बिल्कुल सकती हूं. इस number पर मैं send कर सकती हूं क्या?
-- **agent:** इस number पर documents receive नहीं होते. आप support@demolender.com पर भेज सकती हैं.
+- **agent:** मैं सीधे इस number पर document receive नहीं कर सकता। आप support@demolender.com पर भेज सकती हैं। अगर email में दिक्कत हो, तो मैं callback arrange कर सकता हूँ।
 - **customer:** अभी अभिषेक जी पहले आप मुझे हिंदी में बात करिए. मैं बार बार request कर रही हूं आपको
 - **customer:** हिंदी में बात करिए, लेकिन आप english में repeat करे चले जा रहे हैं.
 - **customer:** और जब आपको मेरी हिंदी से problem हो रही है तो फिर आप मुझे तो english से भी हो रही है ना?
-- **agent:** मुझे माफ कीजिए. मैं समझता हूं. अब मैं आपसे सिर्फ हिंदी में बात करूंगा.
+- **agent:** माफ़ कीजिए। अब से मैं केवल हिंदी में बात करूँगा। क्या आप मुझे अब साफ़ सुन पा रही हैं?
 - **customer:** हां जब मैं आपसे हिंदी हिंदी बोल रही हूं आप बार बार english में बोले चले जा रहे हैं.
-- **agent:** मैं समझता हूं. आगे से हिंदी में ही बात होगी.
+- **agent:** जी, आपकी बात सही है। इसके लिए क्षमा चाहता हूँ।
 - **customer:** हां? जब आपको हिंदी से problem हो रही है आप हिंदी में रह रहे हैं अगर कोई भी हिंदी
-- **customer:** english नहीं आ रही है to आप english english में बोले चले जा रहे हैं.
-- **agent:** मुझे खेद है. कृपया बताइए, आपके पास कौन से proof उपलब्ध हैं?
+- **customer:** english नहीं आ रही है तो आप english english में बोले चले जा रहे हैं.
+- **agent:** समझ गया। अब मैं सिर्फ हिंदी में ही बात करूँगा।
 - **customer:** मैं बोल रही हूं कि मेरे husband, मैं आपके लिए एक request यह भी कर रही हूं
-- **agent:** जी, बताइए.
+- **agent:** जी, बताइए।
 - **customer:** loan भले मेरे नाम से था, लेकिन मेरे husband के account से आप चाहें तो ये सारी documents मंगवा सकते हैं
 - **customer:** कि उनके account से ही पैसा कटता था.
-- **agent:** मैं समझता हूं.
+- **agent:** ठीक है, मैं note कर रहा हूँ कि payment आपके husband के account से होता था।
 - **customer:** एक उनके कुछ papers वगैरह और कुछ miss हो गए थे तो उन्होंने मैं उनकी wife हूं और उन्होंने loan कराया होगा मुझे नहीं पता लेकिन उन्होंने यह था कि पूरा payment कर दिया था उन्होंने मुझसे यही कहा
-- **agent:** जी.
+- **agent:** समझ गया। आप कह रही हैं कि कुछ papers missing हैं, लेकिन आपके husband ने आपको बताया था कि पूरा payment clear हो गया था।
 - **customer:** Company से मुझे कई बार call आता रहा तो उन्होंने मेरे husband से पुछा कि मुझे call क्यों आ रहे हैं?
-- **agent:** जी.
+- **agent:** जी।
 - **customer:** तो बोले payment तो मैंने पूरा कर दिया है एक रुपए भी नहीं balance है यह company वाले क्यों परेशान कर रहे हैं?
-- **agent:** मैं समझता हूं. अगर payment already done है, तो हम उसी आधार पर इसे verify करवाएंगे.
+- **agent:** ठीक है। मैं इसे payment dispute के रूप में note कर रहा हूँ। जब तक review नहीं हो जाता, मैं आपसे payment के लिए नहीं कहूँगा।
 - **customer:** तो sir मेरी आपकी, हां और मेरी आप से request है है ना? मैं आपको मैं उनको यानी मैं उनका
 - **customer:** death certificate भी अभी send कर सकती हूं आपको
-- **agent:** जी, आप death certificate भेज सकती हैं.
+- **agent:** जी, भेज सकती हैं।
 - **customer:** अगर आप मुझे number provide करा देते हैं.
 - **customer:** मुझे किस number पर वह message करना होगा?
-- **agent:** WhatsApp ya message ke liye mere paas number share karne ka option नहीं है. Approved official channel support@demolender.com है.
+- **agent:** अभी मेरे पास WhatsApp number share करने का approved option नहीं है। आप support@demolender.com पर document भेजिए। अगर आपको email में दिक्कत है, तो मैं callback arrange कर देता हूँ।
 - **customer:** Please मुझे help कीजिए क्योंकि मैं एक housewife हूं, है ना? Loan में नहीं complete यानी loan तो हमारा complete हो चुका है. कोई बकाया रहती नहीं है. Company कैसे blame कर रही है कि इतना पैसा रह गया, उतना पैसा रह गया.
-- **agent:** मैं समझता हूं. आप payment dispute बता रही हैं, इसलिए मैं payment pressure नहीं डालूंगा. आप documents support@demolender.com पर भेज दीजिए. अगर आप चाहें तो मैं callback भी schedule कर सकता हूं.
+- **agent:** मैं समझ सकता हूँ। आपने साफ़ कहा है कि आपकी तरफ़ से loan paid था, और आप housewife हैं। मैं इस matter को review के लिए note कर रहा हूँ।
 - **customer:** जी हां.
-- **agent:** आपने बताया loan आपके husband ने clear बताया था, payment उनके account se होता था, aur आपके पास death certificate भी है. यही details verification ke liye काफी मदद करेंगी.
+- **agent:** आपने बताया कि loan आपके नाम पर था, payment आपके husband के account से होता था, उन्होंने full payment होने की बात कही थी, और अब आपके पास death certificate है. सही?
 - **customer:** जी हां.
-- **agent:** अगर आपके पास payment date, amount, PhonePe ya bank transfer ka कोई proof हो, वह भी भेज दीजिए.
-- **customer:** जी हां.
-- **agent:** Hello?
+- **agent:** धन्यवाद। यही details review के लिए पर्याप्त हैं।
 - **customer:** Hello hello.
-- **agent:** जी, मैं सुन पा रहा हूं. आप भी सुन पा रही हैं?
+- **agent:** जी, मैं सुन पा रहा हूँ। क्या आप मुझे साफ़ सुन पा रही हैं?
 - **customer:** हां जी, जी sir.
-- **agent:** ठीक है. आप documents भेज दें, फिर relevant team verify करेगी.
+- **agent:** ठीक है। मैं आगे की process बता देता हूँ। आप death certificate और payment se related जो भी detail है, वह भेज दीजिए। उसके बाद review किया जाएगा।
 - **customer:** और यह
-- **agent:** जी, बताइए.
+- **agent:** जी, बताइए।
 - **customer:** हां मैं दो सौ रुपए payment भेज सकती हूं. और मुझे अगर
-- **agent:** मैं समझता हूं, लेकिन क्योंकि आप कह रही हैं loan already clear है, पहले हम verification कराएंगे.
+- **agent:** अगर account facts dispute में हैं, तो पहले review होना ज़रूरी है। अभी मैं आपसे payment commit नहीं कराऊँगा।
 - **customer:** जो भी company का loan बता रहे हैं
 - **customer:** husband PhonePe से भी payment करते थे
 - **customer:** क्या वह उसकी details send कर सकते हैं जिस number से वह payment करते थे?
-- **agent:** मैं समझता हूं. आप payment details चाहती हैं. मैं live verify नहीं कर सकता, लेकिन relevant team से check करवाने के लिए note कर सकता हूं. Aap proof jo available ho, support@demolender.com पर भेज दीजिए.
+- **agent:** मैं आपकी request note कर रहा हूँ। आप payment details पूछ रही हैं, खासकर जिस number या account से आपके husband PhonePe से payment करते थे।
 - **customer:** Company मुझे वह भी number provide नहीं रही है.
-- **agent:** मैं समझता हूं. Official review के बाद ही team available details पर guide करेगी.
+- **agent:** समझ गया। मैं इसे भी review request में जोड़ दूँगा।
 - **customer:** हां जी.
-- **agent:** ठीक है.
+- **agent:** ठीक है।
+- **customer:** हां.
 - **customer:** दो सौ रुपए, क्यों?
-- **agent:** अगर loan already paid claim है, तो अभी payment करने की ज़रूरत पर मैं जोर नहीं दूंगा. पहले documents review होना बेहतर रहेगा.
+- **agent:** अगर payment history under review है, तो पहले वही clear होना चाहिए। अभी focus review पर रहेगा, payment पर नहीं।
 - **customer:** हां जी.
-- **agent:** जी.
+- **agent:** सही है।
 - **customer:** हां, मुझे यह बताए.
 - **customer:** मुझे यह चाहिए कि मैं मेरे husband ने payment पूरा कर दिया मेरे तरफ़ से पूरा clear है. यानी husband की तरफ़ से है ना? अब वह तो रहा है नहीं लेकिन वह जिस number से payment करते थे क्या वह मुझे
 - **customer:** उसकी details send कर सकते हैं? Company कर सकती है?
-- **agent:** Team verification के बाद available payment details पर help कर सकती है. मैं अभी live confirm नहीं कर सकता. Aap death certificate aur jo bhi payment proof ho, support@demolender.com पर भेज दीजिए.
+- **agent:** मैं वादा नहीं कर सकता कि वही detail किस format में share होगी, लेकिन मैं आपकी request note कर रहा हूँ कि payment source details check की जाएँ।
 - **customer:** हां और अगर हां
-- **agent:** जी.
+- **agent:** जी।
 - **customer:** हां जी. हां बिल्कुल और मैं कभी भी अपना मैं bank account से ही transfer करती हूं.
-- **agent:** ठीक है.
+- **agent:** समझ गया।
 - **customer:** मेरे account से तो पैसा गया नहीं है. उन्हीं के account से गया है और उन्होंने पूरा clear कर दिया था sir.
-- **agent:** मैं समझता हूं.
+- **agent:** जी, यह point भी note कर लिया है।
 - **customer:** वह भी बकाया राशि नहीं है. इसको close कीजिए. Death certificate मैं आपको send कर दे रही हूं.
-- **agent:** जी, आप death certificate भेज दीजिए. Review के बाद team आगे update करेगी.
+- **agent:** review के बाद ही closure confirm हो पाएगा। पहले document verify करना होगा।
 - **customer:** आप इसको देखकर तो आप believe करेंगे कि बंदा अब नहीं रहा है
-- **agent:** मैं समझता हूं.
+- **agent:** जी, death certificate important document है।
 - **customer:** मैं कोई भी amount नहीं pay कर पाऊंगी क्योंकि मैं एक simple housewife हूं आपसे मैं request करी कि मुझसे हिंदी में बात कीजिए.
 - **customer:** आपको पता होना चाहिए कि मैं कोई job वगैरह नहीं करती हूं.
-- **agent:** मैं समझता हूं. मैं हिंदी में ही बात कर रहा हूं, और इस स्थिति में पहले verification ही सही अगला step है.
+- **agent:** जी, समझ गया। मैं हिंदी में ही बात कर रहा हूँ, और आपकी financial situation भी note कर ली है।
 - **customer:** है ना? तो आपसे हां जो request है इसको अभी इसी वक़्त
 - **customer:** close कर दीजिए number मुझे दे दीजिए कि मैं आपको death certificate send कर सकूं.
-- **agent:** मैं अभी call पर closure confirm नहीं कर सकता. Official support email support@demolender.com पर document भेजना होगा.
+- **agent:** मैं अभी call पर closure confirm नहीं कर सकता। लेकिन document भेजने के लिए approved contact है: support@demolender.com
 - **customer:** Ok?
 - **customer:** Number बताइए आप मुझे.
-- **agent:** WhatsApp number मेरे पास share करने के लिए नहीं है. Official email है support@demolender.com.
+- **agent:** WhatsApp number मेरे पास share करने के लिए available नहीं है। approved contact email ही है: support@demolender.com
 - **customer:** जी जी ma'am.
-- **agent:** आप चाहें तो मैं callback schedule कर देता हूं, ताकि documents भेजने के बाद follow-up हो सके.
+- **agent:** आपने जो dispute बताया है, मैं उसका summary note कर रहा हूँ: loan आपके नाम पर था, payment आपके husband करते थे, उन्होंने full payment बताया था, और उनका निधन 07 March 2025 को हो गया। आप death certificate share करेंगी।
 - **customer:** हां मुझे message message कर दीजिए इसी number पर.
-- **agent:** मैं सीधे message नहीं भेज सकता. आप email note कर लीजिए: support@demolender.com.
+- **agent:** मैं सीधे message send नहीं कर सकता। आप note कर लीजिए: support@demolender.com
 - **customer:** हां. ठीक है, बोलिए.
-- **agent:** support@demolender.com. इसी पर death certificate और available payment proof भेज दीजिए.
+- **agent:** support@demolender.com
 - **customer:** मुझे कोई ऐसा number provide कराएंगे जिस
 - **customer:** पर मैं WhatsApp पर उसको message कर सकूं?
-- **agent:** इस समय approved document channel email ही है: support@demolender.com.
+- **agent:** अभी मेरे पास WhatsApp number provide करने का approved option नहीं है।
 - **customer:** हां, मुझे mail करके नहीं आता है sir.
-- **agent:** मैं समझता हूं. अगर संभव हो तो किसी family member ya known person की मदद से email भेज दीजिए.
+- **agent:** समझ गया।
 - **customer:** मैं mail नहीं कर पाऊंगी.
-- **agent:** मैं समझता हूं. ऐसे में मैं callback schedule कर देता हूं, ताकि आगे guidance दी जा सके.
+- **agent:** अगर email भेजना मुश्किल है, तो क्या आप चाहेंगी कि मैं callback schedule कर दूँ? तब next step clear कर देंगे।
+- **agent:** 
+- **agent:** 
 - **customer:** Hello. हां, मैं आपको अपना husband का death certificate send कर सकती हूं.
-- **agent:** जी.
+- **agent:** जी, note कर लिया।
 - **customer:** जो अभी
 - **customer:** 07/03/2025 का है.
-- **agent:** ठीक है. यह detail note कर ली गई.
+- **agent:** जी, 07/03/2025 note कर लिया।
 - **customer:** आज की date में उनको 1 year हुआ है sir.
-- **agent:** मुझे यह सुनकर बहुत अफसोस है.
+- **agent:** समझ गया। आपकी बात note कर ली है।
 - **customer:** हां. Supported panel बोल रहे हैं आप?
-- **agent:** जी, email है support@demolender.com.
+- **agent:** जी, email है: support@demolender.com
+- **agent:** 
 - **customer:** तो कोई WhatsApp number send कर दीजिए.
 - **customer:** Hello.
-- **agent:** WhatsApp number available नहीं है. Official channel support@demolender.com ही है. अगर आप चाहें तो मैं callback schedule कर देता हूं.
+- **agent:** माफ़ कीजिए, WhatsApp number मेरे पास share करने के लिए available नहीं है। अभी approved contact यही email है।
 - **customer:** हां
 - **customer:** जी हां, callback कर दीजिए.
-- **agent:** ज़रूर. आपको किस समय callback करना सुविधाजनक रहेगा?
+- **agent:** ठीक है। आपको किस समय callback करना सुविधाजनक रहेगा?
 - **customer:** अभी recently हो जाता है तो ठीक है sir. जिससे मैं उनके document send कर दूं और आप यह
 - **customer:** loan का जो matter है वह close कीजिए
-- **agent:** मैं समझता हूं. आज ही callback arrange कर देते हैं. किस समय ठीक रहेगा?
+- **agent:** ठीक है। आज ही callback arrange कर देते हैं।
 - **customer:** ना? मैंने आपको जैसे ही guide किया है कि मैं और इसका proof यह है कि मेरे husband के ही account से आपको payment होती थी यह clear हो जाएगा.
-- **agent:** जी, note कर लिया. कृपया समय बता दीजिए.
+- **agent:** जी, यह point भी note कर लिया है।
 - **customer:** नहीं sir अभी अभी 1
-- **agent:** जी, 1 बजे के बाद?
+- **agent:** जी, समय बताइए।
 - **customer:** 13 हो रहा है. आप मुझे 01:15 तक करवा दीजिए.
-- **agent:** ठीक है. मैं 01:15 पर callback schedule कर देता हूं.
+- **agent:** ठीक है। मैं आज 01:15 पर callback schedule कर देता हूँ। उस call का purpose होगा document submission aur payment details review update.
+- **agent:** धन्यवाद। हम 01:15 पर आपसे फिर बात करेंगे। नमस्कार।
 - **customer:** जी?
-- **agent:** Callback 01:15 पर रहेगा. Aap death certificate aur available payment details support@demolender.com पर भेजने की कोशिश कीजिए. धन्यवाद.
 - **customer:** Ok ok.
-
----
-
-## Function Calls
-
-```json
-[
-  {
-    "name": "switch_language",
-    "parameters": {
-      "language": "hi"
-    }
-  },
-  {
-    "name": "proceed_to_dispute",
-    "parameters": {}
-  },
-  {
-    "name": "schedule_callback",
-    "parameters": {
-      "preferred_time": "today 01:15 PM",
-      "callback_type": "normal",
-      "reason": "customer claims loan already paid by deceased husband and wants follow-up after document submission"
-    }
-  },
-  {
-    "name": "end_call",
-    "parameters": {
-      "reason": "claims_already_paid"
-    }
-  }
-]
-```

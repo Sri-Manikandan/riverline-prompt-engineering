@@ -1,0 +1,101 @@
+## Simulated Call Transcript
+
+**Agent:** Hi Kavita Menon, this is Alex from DemoCompany. You had asked us to call you back. I am calling regarding your DemoLender education loan. Is this a good time?
+
+**Customer:** Yeah. Saturday evening also, you will call. Right?
+
+**Agent:** Yes, if needed I can call you on Saturday evening. For now, am I speaking with Kavita Menon?
+
+**Customer:** Hello?
+
+**Customer:** Audubon?
+
+**Agent:** Kavita, I think the line is unclear. I will speak slowly. Can you hear me clearly now?
+
+**Agent:** I am calling about your DemoLender loan. After removing charges, we may be able to help with a lower closure amount.
+
+**Agent:** Your total outstanding is 50000 rupees. But we can remove charges and close your loan at a lower amount, depending on eligibility.
+
+**Customer:** Hello? Yeah. Yeah. Yeah. Okay. Yeah. That's that's what I know. But what offer you will offer then? How much rupees I will pay the finance?
+
+**Agent:** I understand. Before I confirm any offer, I want to make sure the amount is correct from your side too. What amount are you seeing as pending?
+
+**Customer:** Okay. Hello? I I need a settlement. You'll need you'll be giving me the best price.
+
+**Agent:** I understand. I will help with that. First I need to confirm the exact pending figure because I do not want to give you the wrong amount. What amount are you seeing?
+
+**Customer:** Actually, total, my outstanding was $XX,XXX.40 only. The four EMI is only pending in our side. Okay?
+
+**Agent:** Understood. You are saying only 4 EMIs are pending, and your outstanding is showing as XX,XXX.40 rupees. Let me note that. Did you make any recent payment, or is this a balance difference due to charges?
+
+**Customer:** Yeah.
+
+**Agent:** Thank you. Please tell me one thing only. Are you saying no recent payment was made, and the difference is because of late charges or penalties?
+
+**Customer:** So our her voice is breaking. Sometimes only we cannot hear
+
+**Agent:** I understand. I will speak more slowly. Short sentences. Can you hear me clearly now?
+
+**Customer:** Okay. Actually, four EMI is pending. My side.
+
+**Agent:** Understood. Four EMIs are pending from your side.
+
+**Customer:** 9787 is my EMI amount. Enter $4XX,XXX 48 rupees. It's a my outstanding payment. For EMI only, I have not paid.
+
+**Agent:** Thank you. I noted this: EMI amount is 9787 rupees, and 4 EMIs are pending, totaling about XX,XXX.48 rupees. You are saying this is only the EMI due amount.
+
+**Customer:** Yeah. That can mean it doesn't operate. If that platform is continuously added for some late payments, figures on the bounce or just something. But already, that platform is that I'm facing the issue. Although AWS is not issue. So only I will get the the direct link
+
+**Customer:** and I will make the all payments.
+
+**Agent:** I understand. You are saying the higher amount may be because of late charges or bounce charges, and if you get the correct direct payment link, you are willing to pay.
+
+**Customer:** That time. I need a settlement for
+
+**Agent:** Understood.
+
+**Customer:** the this amount in the $XX,XXX.48 fees.
+
+**Customer:** I will need the best price of discounts.
+
+**Agent:** I understand. Since you are disputing the higher balance and asking for settlement on the lower amount, I will not push the higher figure right now. I will note that you are requesting the best settlement based on the 4 EMI amount.
+
+**Agent:** If the lower amount is confirmed, we can review what closure support is possible. Please verify any payment link with DemoLender before making payment.
+
+**Customer:** Okay. Okay. Actually, you know, I just very
+
+**Customer:** not clear the
+
+**Agent:** No problem. I will keep it simple. You are saying only 4 EMIs are pending, around XX,XXX.48 rupees, and you want the best settlement on that amount. Correct?
+
+**Customer:** Yep. Okay. No. No. Actually, my total outstanding was XX,XXX. So I need your best settlement amount. So you will discount this trial.
+
+**Agent:** Understood. I have noted that your side shows outstanding of XX,XXX rupees and you want the best reduced settlement amount.
+
+**Customer:** This is my outstanding. You will give him the reduced price $1,3XX,XXX.
+
+**Agent:** I understand you want a reduced amount. Since there is a difference between the amount you see and the amount on record, the right next step is to review the figures and come back with clarity.
+
+**Customer:** Yeah. Yeah. Right.
+
+**Agent:** Thank you for confirming.
+
+**Customer:** Just a minute.
+
+**Customer:** Just a minute on merit.
+
+**Agent:** Sure, take your time.
+
+**Agent:** If the line drops, I can call you back on Saturday evening as you requested.
+
+**Customer:** Hello?
+
+**Customer:** Are you there?
+
+**Customer:** Kavita Menon, can you hear me?
+
+**Agent:** Kavita, I think the connection is breaking again. I will arrange a callback.
+
+**Agent:** I have noted that you are requesting the best settlement, and that you believe only 4 EMIs are pending.
+
+**Agent:** I will follow up later. Thank you.
