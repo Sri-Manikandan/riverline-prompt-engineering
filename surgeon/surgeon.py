@@ -1,3 +1,8 @@
+# This is completely based on few test cases and general flaw detection mechanism.
+# It needs to be improved to be more accurate and reliable for real world scenarios.
+# Also, when combined with the detective agent, it becomes a self-improving system for improving the system prompt.
+# This is a standalone module
+
 import streamlit as st
 from dotenv import load_dotenv
 load_dotenv()
@@ -101,7 +106,10 @@ def main():
         st.write("After: ")
         st.write(after_response_3['structured_response'].agent_score)
         
-
+# This is completely based on few test cases and general flaw detection mechanism.
+# It needs to be improved to be more accurate and reliable for real world scenarios.
+# Also, when combined with the detective agent, it becomes a self-improving system for improving the system prompt.
+# This is a standalone module
 
 def agent_analyzer1():
     SYSTEM_PROMPT = f"""
