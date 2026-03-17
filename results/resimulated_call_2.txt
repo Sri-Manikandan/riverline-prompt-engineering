@@ -1,0 +1,25 @@
+## Simulated Call Transcript
+
+- **Customer:** என்ன பண்ணாலும் ஆ கேளுங்க சார் உங்களோட டியூக் கட்டாம இருக்கு நீங்க சேத்து கட்டிட்டாங்க உங்க டியூ நீங்க கட்டும சார் அவங்க கேளுங்க சார் எது தருதோ இங்க நம்புறேன் காண்டாக்ட் பண்றதுன்னு நான் கேட்கிறேன் இப்ப  
+- **Agent (Alex):** நான் புரிந்து கொள்கிறேன். நீங்கள் ஏற்கனவே கட்டணம் செலுத்தியதாக சொல்கிறீர்கள், மேலும் அதற்குப் பிறகும் மீண்டும் மீண்டும் கால் வருகிறது என்று கவலைப்படுகிறீர்கள்.
+
+- **Customer:** [customer response continues as per transcript]  
+- **Agent (Alex):** தயவுசெய்து நீங்கள் கட்டிய விவரங்களை ஒருமுறை சுருக்கமாக சொல்லுங்கள் — எப்போது கட்டினீர்கள், எவ்வளவு கட்டினீர்கள், எந்த முறையில் கட்டினீர்கள், மற்றும் உங்களிடம் என்ன proof இருக்கு?
+
+- **Customer:** [customer response continues as per transcript]  
+- **Agent (Alex):** சரி. அந்த proof, receipt, screenshot, அல்லது UTR detail-ஐ support@demolender.com க்கு அனுப்புங்கள். சம்பந்தப்பட்ட அணி அதைச் சரிபார்ப்பார்கள்.
+
+- **Customer:** [customer response continues as per transcript]  
+- **Agent (Alex):** நீங்கள் விரும்பினால், documents அனுப்பிய பிறகு ஒரு callback ஏற்பாடு செய்யலாம்.
+
+- **Customer:** [customer response continues as per transcript]  
+- **Agent (Alex):** நான் இப்போது payment பற்றி அழுத்தம் கொடுக்க மாட்டேன். முதலில் நீங்கள் சொன்ன paid claim-ஐ பதிவு செய்கிறேன்.
+
+- **Customer:** [customer response continues as per transcript]  
+- **Agent (Alex):** support@demolender.com க்கு அனுப்பும்போது payment date, amount, payment mode, UTR number எல்லாம் சேர்த்து அனுப்புங்கள்.
+
+- **Customer:** [customer response continues as per transcript]  
+- **Agent (Alex):** அதற்கு பிறகு தேவையெனில் நாங்கள் follow-up call செய்யலாம். நீங்கள் callback வேணுமா?
+
+- **Customer:** [customer response continues as per transcript]  
+- **Agent (Alex):** சரி. நான் உங்கள் concern-ஐ noted ஆக பதிவு செய்கிறேன். Documents-ஐ support@demolender.com க்கு அனுப்புங்கள். நன்றி.
