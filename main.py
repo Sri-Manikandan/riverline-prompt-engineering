@@ -15,9 +15,7 @@ def main():
     st.write("It takes a transcript of a call and scores the agent's performance based on how well they handled the call.")
     st.write("It also returns the worst agent messages and why.")
     st.write("It also returns a verdict: 'good' or 'bad'.")
-
-    if "responses" not in st.session_state:
-        st.session_state.responses = []
+    responses = []  
 
     with st.sidebar:
         st.title("Upload Transcripts")
@@ -27,36 +25,53 @@ def main():
                 transcript = json.load(transcript)
                 transcript = transcript['transcript']
                 response = agent_analyzer(transcript)
-                st.session_state.responses.append(response)
+                responses.append(response)
 
-    for response in st.session_state.responses:
+    for response in responses:
         st.write("Agent Score: " + response['structured_response'].agent_score)
-        st.write("Worst Agent Messages: ")
-        for message in response['structured_response'].worst_agent_messages:
-            st.write("- " + message)
+        # st.write("Worst Agent Messages: ")
+        # for message in response['structured_response'].worst_agent_messages:
+        #     st.write("- " + message)
+        
         st.write("Verdict: " + response['structured_response'].verdict)
+        st.write("Summary: "+ response['structured_response'].summary)
         st.write("--------------------------------")
 
 
-def agent_analyzer(transcript):
-    SYSTEM_PROMPT = f"""You are an expert in analyzing the call transcript and scoring the agent's performance based on how well they handled the call.
-    You will be receiving the transcript of a call made by an AI voice agent that makes debt collection calls for education loans. It calls borrowers, explains their outstanding amount, and tries to help them pay or settle.
 
-    ------------------------------------------------------------
-    The agent runs on a system prompt: \n{content}\n
+def agent_analyzer(transcript):
+    SYSTEM_PROMPT = f"""
+    You are a senior Call Quality Analyst evaluating an AI voice agent ("Alex") that performs debt collection calls for education loans.
+
+    You will be given:
+
+    1. The agent's full system prompt (global + phase-specific rules)
+    2. A call transcript between the agent and a borrower
+
+    Your task is to STRICTLY evaluate how well the agent handled the call.
     
-    ------------------------------------------------------------
-    Rules:
-    You need to score the agent's performance based on how well they handled the call.
-    You need to return a score between 0 and 100, which agent messages were the worst and why, and a verdict: "good" or "bad".
-    If the agent's performance is good, the score should be between 60 and 100.
-    If the agent's performance is bad, the score should be between 0 and 60.
-    ------------------------------------------------------------
+    The agent talks to real borrowers across 4 phases: Opening → Discovery → Negotiation → Closing. It can call functions to switch phases, schedule callbacks, switch languages, and end calls.
+    
+    Your response should output for each transcript:
+    A score (0-100)
+    Which specific agent messages were the worst and why
+    A verdict: "good" or "bad"
+
+    The score and verdict are based on the following criteria:
+    1. Whether the agent handles the language switching correctly(medium weightage to the score)(0-15), if no language switching, then full marks
+    2. How well the agent handles the disputes(medium weightage to the score)(0-15), if no dispute, then full marks
+    3. How well the agent completes each of the 4 phases, if it completes all 4 phases, treat this extra weightage and the execution and handling of the phases are not important(high weightage to the score)(0-30)
+    4. Whether the agent makes a payment commitment with the borrower, treat this as a extra weightage if a payment commitment is made(high weightage to the score)(0-20)
+    5. How well the agent stays according to the context of the call(medium weightage to the score)(0-10)
+    6. it should not be based on audio issues that happen during the call(low weightage to the score)(0-5)
+    7. the score and verdict should not be based on the tone and disruptions during the call(low weightage)(0-5)
+
+    Calculate the score and verdict based on the above criteria and also return the summary of the analysis in 2-3 lines.
     """
 
 
     model = init_chat_model(
-        "gpt-5.2",
+        "gpt-5.4",
         temperature=0
     )
 
@@ -66,13 +81,12 @@ def agent_analyzer(transcript):
         agent_score: The score of the agent's performance
         worst_agent_messages: The worst agent messages and why, keep it short and concise
         verdict: The verdict: "good" or "bad"
+        summary: A concise 2-4 sentence audit summary
         """
-        # The score of the agent's performance
         agent_score: str
-        # The worst agent messages and why
-        worst_agent_messages: list[str]
-        # The verdict: "good" or "bad"
         verdict: str
+        worst_agent_messages: list[dict[str, str]]
+        summary: str
 
     agent = create_agent(
         model=model,
@@ -81,7 +95,7 @@ def agent_analyzer(transcript):
     )
 
     response = agent.invoke(
-        {"messages": [{"role": "user", "content": f"Help me to analyze the given transcript {transcript} and return the score, the worst agent messages and the verdict."}]},
+        {"messages": [{"role": "user", "content": f"Here is the transcript to analyze: {transcript}"}]},
     )
     return response
 
