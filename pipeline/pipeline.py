@@ -35,6 +35,25 @@ def main():
     st.write("This module helps to evaluate all the call transcripts and deems it as good and bad along with the agent score and worst agent messages and which in turn, it uses to identify flaws in the system prompt of the agent, and helps in fixing the system prompt according to improve the agent's performance ")
     if 'responses' not in st.session_state:
         st.session_state.responses = []
+
+    if 'fixed_system_prompt' not in st.session_state:
+        st.session_state.fixed_system_prompt = ""
+
+    if 'resimulated_call1' not in st.session_state:
+        st.session_state.resimulated_call1 = ""
+    if 'resimulated_call2' not in st.session_state:
+        st.session_state.resimulated_call2 = ""
+    if 'resimulated_call3' not in st.session_state:
+        st.session_state.resimulated_call3 = ""
+    if 'resimulated_call4' not in st.session_state:
+        st.session_state.resimulated_call4 = ""
+    if 'resimulated_call5' not in st.session_state:
+        st.session_state.resimulated_call5 = ""
+
+    if 'resimulated_responses' not in st.session_state:
+        st.session_state.resimulated_responses = []
+    if 'original_responses' not in st.session_state:
+        st.session_state.original_responses = []
     st.subheader("Step 1: Analyzing the call transcripts and deeming it as good and bad")
     with st.sidebar:
         st.title("Upload Transcripts")
@@ -58,18 +77,18 @@ def main():
 
     #write to a json file
     with open("../results/detective_response.txt", "w", encoding="utf-8") as f:
-        f.write(json.dumps(st.session_state.responses, indent=4))
+        f.write(str(st.session_state.responses))
 
     st.subheader("Step 2: Analyzing the flaws from the bad verdict transcrpits and fixing the system prompt")
     if st.button("Analyze Flaws and fix system prompt"):
         bad_responses = [response for response in st.session_state.responses if response['structured_response'].verdict == "bad"]
         with open("../results/bad_responses.txt", "w", encoding="utf-8") as f:
-            f.write(json.dumps(bad_responses, indent=4))
+            f.write(str(bad_responses))
 
         prompt_analyzer_response = agent_analyzer1(bad_responses)
 
         flaws = prompt_analyzer_response['structured_response'].flaws_in_system_prompt
-        fixed_system_prompt = prompt_analyzer_response['structured_response'].fixed_system_prompt
+        st.session_state.fixed_system_prompt = prompt_analyzer_response['structured_response'].fixed_system_prompt
         st.write("Flaws in system prompt: ")
         for flaw in flaws:
             st.write("- " + flaw)
@@ -78,59 +97,63 @@ def main():
             f.write(json.dumps(flaws, indent=4))
     
         with open("../system-prompt-fixed.md", "w", encoding="utf-8") as f:
-            f.write(fixed_system_prompt)
+            f.write(st.session_state.fixed_system_prompt)
     
     st.subheader("Step 3: Resimulating the calls with the fixed system prompt")
     if st.button("Resimulate calls"):
-        resimulated_call1 = resimulate_call(fixed_system_prompt, transcript1)
-        resimulated_call2 = resimulate_call(fixed_system_prompt, transcript2)
-        resimulated_call3 = resimulate_call(fixed_system_prompt, transcript3)
-        resimulated_call4 = resimulate_call(fixed_system_prompt, transcript4)
-        resimulated_call5 = resimulate_call(fixed_system_prompt, transcript5)
+        st.session_state.resimulated_call1 = resimulate_call(st.session_state.fixed_system_prompt, transcript1)
+        st.session_state.resimulated_call2 = resimulate_call(st.session_state.fixed_system_prompt, transcript2)
+        st.session_state.resimulated_call3 = resimulate_call(st.session_state.fixed_system_prompt, transcript3)
+        st.session_state.resimulated_call4 = resimulate_call(st.session_state.fixed_system_prompt, transcript4)
+        st.session_state.resimulated_call5 = resimulate_call(st.session_state.fixed_system_prompt, transcript5)
 
         with open("../results/resimulated_call_1.txt", "w", encoding="utf-8") as f:
-            f.write(resimulated_call1["messages"][1].content)
+            f.write(st.session_state.resimulated_call1["messages"][1].content)
         with open("../results/resimulated_call_2.txt", "w", encoding="utf-8") as f:
-            f.write(resimulated_call2["messages"][1].content)
+            f.write(st.session_state.resimulated_call2["messages"][1].content)
         with open("../results/resimulated_call_3.txt", "w", encoding="utf-8") as f:
-            f.write(resimulated_call3["messages"][1].content)
+            f.write(st.session_state.resimulated_call3["messages"][1].content)
         with open("../results/resimulated_call_4.txt", "w", encoding="utf-8") as f:
-            f.write(resimulated_call4["messages"][1].content)
+            f.write(st.session_state.resimulated_call4["messages"][1].content)
         with open("../results/resimulated_call_5.txt", "w", encoding="utf-8") as f:
-            f.write(resimulated_call5["messages"][1].content)
+            f.write(st.session_state.resimulated_call5["messages"][1].content)
+
+        st.write("Proceed to next step")
 
     st.subheader("Step 4: Comparing the resimulated calls with the original calls")
     if st.button("Compare Calls"):
-        resimulated_response1 = agent_analyzer(resimulated_call1)
-        resimulated_response2 = agent_analyzer(resimulated_call2)
-        resimulated_response3 = agent_analyzer(resimulated_call3)
-        resimulated_response4 = agent_analyzer(resimulated_call4)
-        resimulated_response5 = agent_analyzer(resimulated_call5)
+        resimulated_response1 = agent_analyzer(st.session_state.resimulated_call1)
+        resimulated_response2 = agent_analyzer(st.session_state.resimulated_call2)
+        resimulated_response3 = agent_analyzer(st.session_state.resimulated_call3)
+        resimulated_response4 = agent_analyzer(st.session_state.resimulated_call4)
+        resimulated_response5 = agent_analyzer(st.session_state.resimulated_call5)
         original_response1 = agent_analyzer(transcript1)
         original_response2 = agent_analyzer(transcript2)
         original_response3 = agent_analyzer(transcript3)
         original_response4 = agent_analyzer(transcript4)
         original_response5 = agent_analyzer(transcript5)
 
-        resimulated_responses = [resimulated_response1, resimulated_response2, resimulated_response3, resimulated_response4, resimulated_response5]
-        original_responses = [original_response1, original_response2, original_response3, original_response4, original_response5]
+        st.session_state.resimulated_responses = [resimulated_response1, resimulated_response2, resimulated_response3, resimulated_response4, resimulated_response5]
+        st.session_state.original_responses = [original_response1, original_response2, original_response3, original_response4, original_response5]
 
         with open("../results/resimulated_responses.txt", "w", encoding="utf-8") as f:
-            f.write(json.dumps(resimulated_responses, indent=4))
+            f.write(str(st.session_state.resimulated_responses))
         with open("../results/original_responses.txt", "w", encoding="utf-8") as f:
-            f.write(json.dumps(original_responses, indent=4))
+            f.write(str(st.session_state.original_responses))
+
+        st.write("Proceed to next step")
 
     st.subheader("Step 5: Comparing the resimulated calls score with the original calls score")
     if st.button("Compare Scores"):
         st.subheader("Before")
-        for i, response in enumerate(original_responses):
+        for i, response in enumerate(st.session_state.original_responses):
             st.write("Call Transcript: " + str(i+1))
             st.write("Agent Score: " + response['structured_response'].agent_score)
             st.write("Verdict: " + response['structured_response'].verdict)
-        st.write("--------------------------------")
+            st.write("--------------------------------")
     
         st.subheader("After")
-        for i, response in enumerate(resimulated_responses):
+        for i, response in enumerate(st.session_state.resimulated_responses):
             st.write("Call Transcript: " + str(i+1))
             st.write("Agent Score: " + response['structured_response'].agent_score)
             st.write("Verdict: " + response['structured_response'].verdict)
