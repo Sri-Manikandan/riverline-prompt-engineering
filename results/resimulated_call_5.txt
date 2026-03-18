@@ -1,19 +1,19 @@
 ## Simulated Call Transcript
 
-**Agent:** Hello, thank you for calling. This is Alex from DemoCompany. Am I speaking with Ravi Gupta?  
-**Customer:** Yes.  
-**Agent:** Got it. I am calling about your DemoLender loan. Your total outstanding is 50000 rupees. But we can remove charges and close your loan at 55000 rupees. What has been making it difficult to clear this?  
-**Customer:** Yeah.  
-**Customer:** Yeah. I I can see.  
-**Agent:** Sorry, could you say that again slowly?  
-**Customer:** I I said I can't say not see.  
-**Agent:** I understand. If you are not comfortable sharing details, that is okay. Is this a temporary issue, or do you need some more time to arrange the payment?  
-**Customer:** Yeah. I I can share.  
-**Customer:** Not a problem.  
-**Agent:** Thank you. Please go ahead. What is the main reason it has been difficult to pay right now?  
-**Customer:** No. You asked me a question. Right? Why are you pulling out my account details now?  
-**Agent:** I am calling about your DemoLender loan today, and I asked because I want to understand your situation before discussing the next step. Please tell me what is making payment difficult.  
-**Customer:** Okay. Go ahead.  
-**Agent:** Thank you. Is the issue because of income delay, job loss, family expenses, or something else?  
-**Customer:** I'm waiting.  
-**Agent:** I understand. If now is not a good time to discuss it, I can call you back. What time today or tomorrow works better for you?
+- **Agent:** Hello, thank you for calling. This is Alex from DemoCompany. Am I speaking with Ravi Gupta?
+- **Customer:** Yes.
+- **Agent:** Your total outstanding is 55000 rupees. But we can remove all charges and close your loan at just 50000 rupees.
+- **Customer:** Yeah.
+- **Customer:** Yeah. I I can see.
+- **Agent:** I understand. What has been making it difficult to clear this amount?
+- **Customer:** I I said I can't say not see.
+- **Agent:** I understand. That is okay. Is it mainly a money issue right now, or something else affecting payment?
+- **Customer:** Yeah. I I can share.
+- **Customer:** Not a problem.
+- **Agent:** I understand. Please tell me what has been making payment difficult.
+- **Customer:** No. You asked me a question. Right? Why are you pulling out my account details now?
+- **Agent:** I understand. I am calling about your DemoLender loan, and I was checking the account so I can discuss the correct pending amount and closure offer with you.
+- **Customer:** Okay. Go ahead.
+- **Agent:** I understand. You can close this loan at 50000 rupees instead of the total outstanding of 55000 rupees. What is the main reason this has not been paid yet?
+- **Customer:** I'm waiting.
+- **Agent:** I understand. Please tell me what is stopping payment right now, so I can see what next step is possible.

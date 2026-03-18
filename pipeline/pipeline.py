@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from langchain.agents import create_agent
 from langchain.chat_models import init_chat_model
 import json
+from langsmith import traceable
 
 with open("../system-prompt.md", "r", encoding="utf-8") as f:
     system_prompt_old = f.read()
@@ -29,7 +30,7 @@ with open("../transcripts/call_10.json", "r", encoding="utf-8") as f:
     transcript5 = json.load(f)
     transcript5 = transcript5['transcript']
 
-
+@traceable
 def main():
     st.title("Entire Pipeline")
     st.write("This module helps to evaluate all the call transcripts and deems it as good and bad along with the agent score and worst agent messages and which in turn, it uses to identify flaws in the system prompt of the agent, and helps in fixing the system prompt according to improve the agent's performance ")
@@ -159,7 +160,7 @@ def main():
             st.write("Verdict: " + response['structured_response'].verdict)
             st.write("--------------------------------")
 
-
+@traceable(run_type="llm", name="agent_analyzer")
 def agent_analyzer(transcript):
     SYSTEM_PROMPT = f"""
     You are a senior Call Quality Analyst evaluating an AI voice agent ("Alex") that performs debt collection calls for education loans.
@@ -219,6 +220,7 @@ def agent_analyzer(transcript):
     )
     return response
 
+@traceable(run_type="llm", name="agent_analyzer1")
 def agent_analyzer1(bad_responses):
     SYSTEM_PROMPT = f"""
     You are a senior Prompt Engineer evaluating an AI voice agent ("Alex")'s System Prompt, that performs debt collection calls for education loans, that helps to find flaws in the system prompt.
@@ -269,6 +271,7 @@ def agent_analyzer1(bad_responses):
     )
     return response
 
+@traceable(run_type="llm", name="resimulate_call")
 def resimulate_call(fixed_system_prompt,transcript):
     SYSTEM_PROMPT = f"""
     You are a Expert call simulator for an AI voice agent ("Alex") that performs debt collection calls for education loans.
